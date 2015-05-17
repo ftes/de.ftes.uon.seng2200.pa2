@@ -31,7 +31,7 @@ public class DistanceEvent implements Comparable<DistanceEvent> {
 		this.index = index;
 
 		for (int i = 0; i < numberOfAttempts; i++) {
-			distances.append(new DistanceAttempt(index));
+			distances.append(new DistanceAttempt(i));
 		}
 	}
 
